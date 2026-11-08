@@ -1,0 +1,21 @@
+{
+  "name": "sororeplay",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Capture Soroban contract events and regression-test event handlers",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "exports": "./src/index.js",
+  "scripts": {
+    "test": "node --test",
+    "demo": "node scripts/demo.js",
+    "testnet": "node --dns-result-order=ipv4first scripts/testnet.js"
+  },
+  "dependencies": {
+    "@stellar/stellar-sdk": "17.4.0"
+  },
+  "author": "JamesEjembi <jameseonoja@gmail.com>"
+}

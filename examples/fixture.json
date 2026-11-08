@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "source": "synthetic-offline-fixture",
+  "networkPassphrase": "Test SDF Network ; September 2015",
+  "contractId": "CADQOBYHA4DQOBYHA4DQOBYHA4DQOBYHA4DQOBYHA4DQOBYHA4DQP5KR",
+  "startLedger": 100,
+  "endLedger": 101,
+  "complete": true,
+  "events": [
+    {
+      "id": "0000000429496733696-0000000000",
+      "type": "contract",
+      "ledger": 100,
+      "ledgerClosedAt": "2026-11-01T00:00:00Z",
+      "contractId": "CADQOBYHA4DQOBYHA4DQOBYHA4DQOBYHA4DQOBYHA4DQOBYHA4DQP5KR",
+      "txHash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "inSuccessfulContractCall": true,
+      "topic": [
+        "AAAADwAAAAZjcmVkaXQAAA==",
+        "AAAADwAAAAVhbGljZQAAAA=="
+      ],
+      "value": "AAAAEQAAAAEAAAABAAAADgAAAAZhbW91bnQAAAAAAAMAAAAE"
+    },
+    {
+      "id": "0000000429496733696-0000000001",
+      "type": "contract",
+      "ledger": 100,
+      "ledgerClosedAt": "2026-11-01T00:00:00Z",
+      "contractId": "CADQOBYHA4DQOBYHA4DQOBYHA4DQOBYHA4DQOBYHA4DQOBYHA4DQP5KR",
+      "txHash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "inSuccessfulContractCall": true,
+      "topic": [
+        "AAAADwAAAAZjcmVkaXQAAA==",
+        "AAAADwAAAANib2IA"
+      ],
+      "value": "AAAAEQAAAAEAAAABAAAADgAAAAZhbW91bnQAAAAAAAMAAAAH"
+    },
+    {
+      "id": "0000000429496733696-0000000002",
+      "type": "contract",
+      "ledger": 100,
+      "ledgerClosedAt": "2026-11-01T00:00:00Z",
+      "contractId": "CADQOBYHA4DQOBYHA4DQOBYHA4DQOBYHA4DQOBYHA4DQOBYHA4DQP5KR",
+      "txHash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "inSuccessfulContractCall": true,
+      "topic": [
+        "AAAADwAAAAZjcmVkaXQAAA==",
+        "AAAADwAAAAVhbGljZQAAAA=="
+      ],
+      "value": "AAAAEQAAAAEAAAABAAAADgAAAAZhbW91bnQAAAAAAAMAAAAG"
+    }
+  ]
+}

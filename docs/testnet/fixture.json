@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "source": "stellar-testnet-rpc",
+  "capturedAt": "2026-11-08T18:29:25.969Z",
+  "rpc": "https://soroban-testnet.stellar.org",
+  "networkPassphrase": "Test SDF Network ; September 2015",
+  "contractId": "CANOOIAND2G65MTG6HUEVJCIHFG5AJAZUE7EACYWD2Q7ZC5DRKT7NPLV",
+  "startLedger": 5627760,
+  "endLedger": 5627783,
+  "complete": true,
+  "events": [
+    {
+      "type": "contract",
+      "ledger": 5627768,
+      "ledgerClosedAt": "2026-11-08T18:28:02Z",
+      "contractId": "CANOOIAND2G65MTG6HUEVJCIHFG5AJAZUE7EACYWD2Q7ZC5DRKT7NPLV",
+      "id": "0024171079509508096-0000000000",
+      "operationIndex": 0,
+      "transactionIndex": 8,
+      "txHash": "f55282f36b1b6aad2ce22716a71c41b13c072461c9ecd755a95fc5233ce57019",
+      "topic": [
+        "AAAADwAAAAZjcmVkaXQAAA==",
+        "AAAADwAAAAVhbGljZQAAAA=="
+      ],
+      "value": "AAAAEQAAAAEAAAABAAAADwAAAAZhbW91bnQAAAAAAAMAAAAE"
+    },
+    {
+      "type": "contract",
+      "ledger": 5627773,
+      "ledgerClosedAt": "2026-11-08T18:28:27Z",
+      "contractId": "CANOOIAND2G65MTG6HUEVJCIHFG5AJAZUE7EACYWD2Q7ZC5DRKT7NPLV",
+      "id": "0024171100984348672-0000000000",
+      "operationIndex": 0,
+      "transactionIndex": 9,
+      "txHash": "e1ab1b6af0a78dfc80e7d10a88eb708e528c4ef3870c53c826d303af882ef44c",
+      "topic": [
+        "AAAADwAAAAZjcmVkaXQAAA==",
+        "AAAADwAAAANib2IA"
+      ],
+      "value": "AAAAEQAAAAEAAAABAAAADwAAAAZhbW91bnQAAAAAAAMAAAAH"
+    },
+    {
+      "type": "contract",
+      "ledger": 5627781,
+      "ledgerClosedAt": "2026-11-08T18:29:07Z",
+      "contractId": "CANOOIAND2G65MTG6HUEVJCIHFG5AJAZUE7EACYWD2Q7ZC5DRKT7NPLV",
+      "id": "0024171135344132096-0000000000",
+      "operationIndex": 0,
+      "transactionIndex": 20,
+      "txHash": "14972b65e3b1da86c910316a9fdab94525792239bf96be87b791e90063c03f13",
+      "topic": [
+        "AAAADwAAAAZjcmVkaXQAAA==",
+        "AAAADwAAAAVhbGljZQAAAA=="
+      ],
+      "value": "AAAAEQAAAAEAAAABAAAADwAAAAZhbW91bnQAAAAAAAMAAAAG"
+    }
+  ]
+}

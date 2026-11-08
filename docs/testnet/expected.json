@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "orderIndependent": true,
+  "state": {
+    "balances": {
+      "alice": "10",
+      "bob": "7"
+    }
+  }
+}

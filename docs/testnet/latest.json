@@ -1,0 +1,75 @@
+{
+  "verifiedAt": "2026-11-08T18:29:38.765Z",
+  "network": "testnet",
+  "networkPassphrase": "Test SDF Network ; September 2015",
+  "rpc": "https://soroban-testnet.stellar.org",
+  "contractId": "CANOOIAND2G65MTG6HUEVJCIHFG5AJAZUE7EACYWD2Q7ZC5DRKT7NPLV",
+  "wasmSha256": "4fd783e1819366e7bfef72f77d7017a7e1104bf4f0fc4501c304512df94b9334",
+  "account": "GDXWEJWT4Q4G7QNML32DWMPJVLEX4I4PSS7R72ADE2HUEA5WE257PO4Y",
+  "fixtureFile": "fixture.json",
+  "report": {
+    "schemaVersion": 1,
+    "mode": "fixture replay",
+    "contractId": "CANOOIAND2G65MTG6HUEVJCIHFG5AJAZUE7EACYWD2Q7ZC5DRKT7NPLV",
+    "eventCount": 3,
+    "passed": 3,
+    "failed": 0,
+    "results": [
+      {
+        "profile": "canonical",
+        "passed": true,
+        "deliveries": 3,
+        "actual": {
+          "balances": {
+            "alice": "10",
+            "bob": "7"
+          }
+        },
+        "differences": []
+      },
+      {
+        "profile": "duplicate",
+        "passed": true,
+        "deliveries": 6,
+        "actual": {
+          "balances": {
+            "alice": "10",
+            "bob": "7"
+          }
+        },
+        "differences": []
+      },
+      {
+        "profile": "reverse",
+        "passed": true,
+        "deliveries": 3,
+        "actual": {
+          "balances": {
+            "alice": "10",
+            "bob": "7"
+          }
+        },
+        "differences": []
+      }
+    ]
+  },
+  "brokenAdapterDuplicateDetected": true,
+  "confirmations": [
+    {
+      "hash": "f55282f36b1b6aad2ce22716a71c41b13c072461c9ecd755a95fc5233ce57019",
+      "ledger": 5627768,
+      "explorer": "https://stellar.expert/explorer/testnet/tx/f55282f36b1b6aad2ce22716a71c41b13c072461c9ecd755a95fc5233ce57019"
+    },
+    {
+      "hash": "e1ab1b6af0a78dfc80e7d10a88eb708e528c4ef3870c53c826d303af882ef44c",
+      "ledger": 5627773,
+      "explorer": "https://stellar.expert/explorer/testnet/tx/e1ab1b6af0a78dfc80e7d10a88eb708e528c4ef3870c53c826d303af882ef44c"
+    },
+    {
+      "hash": "14972b65e3b1da86c910316a9fdab94525792239bf96be87b791e90063c03f13",
+      "ledger": 5627781,
+      "explorer": "https://stellar.expert/explorer/testnet/tx/14972b65e3b1da86c910316a9fdab94525792239bf96be87b791e90063c03f13"
+    }
+  ],
+  "note": "Credit events are demonstration records, not real token transfers. Duplicate/reverse delivery profiles are offline replays of captured Testnet events."
+}
