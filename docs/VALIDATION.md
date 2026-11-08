@@ -8,6 +8,6 @@
 - Live Stellar Testnet verification succeeded on November 8, 2026: contract CANOOIAND2G65MTG6HUEVJCIHFG5AJAZUE7EACYWD2Q7ZC5DRKT7NPLV emitted three events, each from a transaction confirmed SUCCESS by RPC. Raw events, expected state, transaction hashes and the replay report are saved in docs/testnet/.
 - The captured Testnet fixture passed canonical, duplicate and reverse replay; the deliberately broken handler failed duplicate replay. A separate CLI replay of the saved live fixture also passed all three profiles.
 - npm dependency audit at installation reported zero known vulnerabilities; this is not a security audit.
-- Remote CI and repository publication have not occurred.
+- Published to https://github.com/sororeplay-labs/sororeplay. GitHub Actions status is available in the repository Actions tab; local results above do not imply remote CI has passed.
 
 No production readiness, external application adoption, or independent security audit is claimed. Duplicate and reverse delivery are offline perturbations, including when the source fixture comes from Testnet.
